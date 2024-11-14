@@ -1,5 +1,91 @@
-body {
-  width: 100%;
-  height: 100%;
+/* Reset margin and padding */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the header text */
+header h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.8em;
+}
+
+header nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav a {
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Center the image */
+#featured-property img {
+  display: block;
+  margin: 20px auto;
+  width: 80%; /* Adjust width as needed */
+}
+
+figcaption {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Center and style the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Details section layout */
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f50505;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#details div {
+  text-align: center;
+  width: 25%;
+}
+
+/* Footer styling */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+#footer div {
+  width: 25%;
+}
+
+#footer h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+#footer a {
+  color: blue;
+  text-decoration: underline;
 }
